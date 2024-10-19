@@ -16,12 +16,17 @@ a {
     position: relative;
 }
 
+#landing {
+    height: calc(100vh - 120px);
+}
+
 .nav__container {
     height: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 24px;
+    margin-bottom: 64px;
 }
 
 .logo__wrapper {
@@ -68,11 +73,11 @@ a {
 }
 
 .nav__link--primary:hover {
-    background-color: #4108b4;
+    background-color: #4208b4;
     color: #fff;
 }
 
-.link__hover--effect:after {
+.link__hover-effect:after {
     content: "";
     position: absolute;
     background-color: #6415ff;
@@ -80,12 +85,10 @@ a {
     bottom: -3px;
 }
 
-.link__hover--effect:hover:after {
+.link__hover-effect:hover:after {
     width: 100%;
     left: 0;
 }
-
-/* HEADER */
 
 .header__container {
     padding: 0 24px;
@@ -95,11 +98,11 @@ a {
 }
 
 .header__description {
-    width: 45%;
+    width: 43%;
 }
 
 .header__description--title {
-    font-size: 36px;
+    font-size: 48px;
 }
 
 .purple {
@@ -111,14 +114,20 @@ a {
     color: #243e63;
     margin: 32px 0;
     line-height: 24px;
+    max-width: 550px;
+}
+
+form {
+    display: flex;
+    align-items: center;
 }
 
 input {
-    position: absolute;
+    position: relative;
     width: 100%;
     max-width: 420px;
     border-radius: 99px;
-    padding: 20px;
+    padding: 24px 192px 24px 32px;
     border: 2px solid lightgray;
 }
 
@@ -133,4 +142,50 @@ input:hover {
 input:focus {
     border: 2px solid #6415ff;
     outline: transparent solid 2px;
+}
+
+.btn {
+    background-color: #6415ff;
+    color: white;
+    border-radius: 99px;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    border-color: transparent;
+}
+
+.btn:hover {
+    background-color: #4108b4;
+    cursor: pointer;
+}
+
+.header__btn--wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__btn {
+    position: absolute;
+    margin-right: 8px;
+}
+
+.header__description--para-2 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #a0aec0;
+    margin: 80px 0 16px 0;
+}
+
+.header__description--img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.header__img--wrapper {
+    width: 57%;
+}
+
+.header__img {
+    width: 100%;
 }
