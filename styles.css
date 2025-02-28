@@ -7,266 +7,28 @@
     font-family: "Inter", sans-serif;
 }
 
-li {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    position: relative;
-}
-
-.container {
-    padding: 80px 0;
-}
-
-.row {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-#landing {
-    height: calc(100vh - 120px);
-}
-
-.nav__container {
-    height: 120px;
+nav {
+    height: 100px;
+    /* width: 100%; */
+    /* max-width: 1200px; */
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 0 24px;
-    margin-bottom: 64px;
-}
-
-.logo__wrapper {
-    display: flex;
     align-items: center;
-    gap: 8px;
-}
-
-.logo {
-    width: 40px;
-    height: 40px;
-}
-
-.logo__text {
-    font-size: 24px;
-    font-weight: 900;
-    color: #243e63;
 }
 
 .nav__links {
     display: flex;
-    gap: 32px;
 }
 
-.nav__link {
-    font-size: 14px;
-    font-weight: 600;
-    color: #243e63;
+.links {
+    text-decoration: none;
 }
 
-.nav__link:hover {
-    color: #6415ff;
+li {
+    list-style: none;
+    padding: 16px;
 }
 
-.nav__link--margin {
-    margin-left: 48px;
-}
-
-.nav__link--primary {
-    background-color: #6415ff;
-    color: #fff;
-    border-radius: 99px;
-    padding: 12px 32px;
-}
-
-.nav__link--primary:hover {
-    background-color: #4208b4;
-    color: #fff;
-}
-
-.link__hover-effect:after {
-    content: "";
-    position: absolute;
-    background-color: #6415ff;
-    height: 2px;
-    bottom: -3px;
-}
-
-.link__hover-effect:hover:after {
-    width: 100%;
-    left: 0;
-}
-
-.header__container {
-    padding: 0 24px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
-.header__description {
-    width: 43%;
-}
-
-.header__description--title {
-    font-size: 48px;
-}
-
-.purple {
-    color: #6415ff;
-}
-
-.header__description--para {
-    font-size: 18px;
-    color: #243e63;
-    margin: 32px 0;
-    line-height: 24px;
-    max-width: 550px;
-}
-
-form {
-    display: flex;
-    align-items: center;
-}
-
-input {
-    position: relative;
-    width: 100%;
-    max-width: 420px;
-    border-radius: 99px;
-    padding: 24px 192px 24px 32px;
-    border: 2px solid lightgray;
-}
-
-input::placeholder {
-    color: lightgray;
-}
-
-input:hover {
-    border-color: gray;
-}
-
-input:focus {
-    border: 2px solid #6415ff;
-    outline: transparent solid 2px;
-}
-
-.btn {
-    background-color: #6415ff;
-    color: white;
-    border-radius: 99px;
-    padding: 14px 28px;
-    font-size: 16px;
-    font-weight: 700;
-    border-color: transparent;
-}
-
-.btn:hover {
-    background-color: #4108b4;
-    cursor: pointer;
-}
-
-.header__btn--wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.header__btn {
-    position: absolute;
-    margin-right: 8px;
-}
-
-.header__description--para-2 {
-    font-size: 12px;
-    font-weight: 700;
-    color: #a0aec0;
-    margin: 80px 0 16px 0;
-}
-
-.header__description--img {
-    width: 100%;
-    max-width: 500px;
-}
-
-.header__img--wrapper {
-    width: 57%;
-}
-
-.header__img {
-    width: 100%;
-}
-
-/* FEATURES */
-
-.features__description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 48px;
-}
-
-.section__title {
-    font-size: 16px;
-    color: #6415ff;
-    letter-spacing: 1.6px;
-}
-
-.section__heading {
-    font-size: 48px;
-    color: #243e63;
-    margin: 36px 0;
-    font-weight: 900;
-    letter-spacing: 0.4px;
-}
-
-.section__para {
-    font-size: 20px;
-    color: #7c8ba1;
-    width: 100%;
-    max-width: 650px;
-    line-height: 1.5;
-}
-
-.services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.service {
-    display: flex;
-    width: 30%;
-    margin: 0 12px;
-    padding: 24px 0;
-}
-
-.service__img--wrapper {
-    display: flex;
-    border: 1px solid rgb(226, 232, 240);
-    padding: 20px;
-    border-radius: 99px;
-    max-height: 65px;
-}
-
-.service__description {
-    padding-left: 12px;
-}
-
-.service__description__title{
-    font-size: 24px;
-    margin-bottom: 12px;
-}
-
-.service__description--para {
-    font-size: 16px;
-    color: rgb(124, 139, 161);
-    line-height: 2;
-    width: 100%;
-    max-width: 200px;
-    font-weight: 500;
+.logo {
+    width: 2.5rem;
 }

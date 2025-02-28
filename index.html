@@ -3,155 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Treact FP</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <section id="landing">
+    <section>
       <nav>
-        <div class="row">
-          <div class="nav__container">
-            <a href="#">
-              <div class="logo__wrapper">
-                <img
-                  class="logo"
-                  src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"
-                  alt=""
-                />
-                <h1 class="logo__text">Treact</h1>
-              </div>
-              <ul class="nav__links">
-                <li>
-                  <a href="" class="nav__link link__hover-effect">About</a>
-                </li>
-                <li>
-                  <a href="" class="nav__link link__hover-effect">Blog</a>
-                </li>
-                <li>
-                  <a href="" class="nav__link link__hover-effect">Pricing</a>
-                </li>
-                <li>
-                  <a href="" class="nav__link link__hover-effect">Contact Us</a>
-                </li>
-                <li>
-                  <a
-                    href=""
-                    class="nav__link nav__link--margin link__hover-effect"
-                    >Login</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="nav__link nav__link--primary">Sign Up</a>
-                </li>
-              </ul>
-            </a>
-          </div>
-        </div>
+        <a href="" class="logo__name">
+          <img src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="" class="logo"/>
+          Treact
+          <ul class="nav__links">
+            <li><a class="links" href="#about">About</a></li>
+            <li><a class="links" href="#blog">Blog</a></li>
+            <li><a class="links" href="#pricing">Pricing</a></li>
+            <li><a class="links" href="#contact">Contact Us</a></li>
+            <li><a class="links" href="#login">Login</a></li>
+            <li><a class="links" href="#signUp">Sign Up</a></li>
+          </ul>
+        </a>
       </nav>
 
-      <header class="header__container">
-        <div class="header__description">
-          <h1 class="header__description--title">
-            Beautiful React Templates <span class="purple">for you.</span>
-          </h1>
-          <p class="header__description--para">
-            Our templates are easy to setup, understand and customize. Fully
-            modular components with a variety of pages and components.
-          </p>
-          <form action="">
-            <input type="text" placeholder="Your E-amil Address" />
-            <div class="header__btn--wrapper">
-              <button class="btn header__btn">Get Started</button>
-            </div>
-          </form>
-          <p class="header__description--para-2">OUR TRUSTED CUSTOMERS</p>
-          <img
-            class="header__description--img"
-            src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png"
-            alt=""
-          />
-        </div>
-        <figure class="header__img--wrapper">
-          <img
-            src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
-            alt=""
-            class="header__img"
-          />
-        </figure>
-      </header>
-    </section>
-
-    <section id="features">
-      <div class="container">
-        <div class="row">
-          <div class="features__description">
-            <h5 class="section__title">FEATURES</h5>
-            <h1 class="section__heading">
-              We have Amazing <span class="purple">Service.</span>
-            </h1>
-            <p class="section__para">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-          <div class="services">
-            <div class="service">
-              <figure class="service__img--wrapper">
-                <img src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="" class="srvice__img">
-              </figure>
-              <div class="service__description">
-                <h3 class="service__description__title">Secure</h3>
-                <p class="service__description--para">We strictly only deal with vendors that provide top notch security.</p>
-              </div>
-            </div>
-            <div class="service">
-              <figure class="service__img--wrapper">
-                <img src="./assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="" class="srvice__img">
-              </figure>
-              <div class="service__description">
-                <h3 class="service__description__title">24/7 Support</h3>
-                <p class="service__description--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
-              </div>
-            </div>
-            <div class="service">
-              <figure class="service__img--wrapper">
-                <img src="./assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="" class="srvice__img">
-              </figure>
-              <div class="service__description">
-                <h3 class="service__description__title">Customizable</h3>
-                <p class="service__description--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
-              </div>
-            </div>
-            <div class="service">
-              <figure class="service__img--wrapper">
-                <img src="./assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="" class="srvice__img">
-              </figure>
-              <div class="service__description">
-                <h3 class="service__description__title">Reliable</h3>
-                <p class="service__description--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
-              </div>
-            </div>
-            <div class="service">
-              <figure class="service__img--wrapper">
-                <img src="./assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="" class="srvice__img">
-              </figure>
-              <div class="service__description">
-                <h3 class="service__description__title">Fast</h3>
-                <p class="service__description--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
-              </div>
-            </div>
-            <div class="service">
-              <figure class="service__img--wrapper">
-                <img src="./assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="" class="srvice__img">
-              </figure>
-              <div class="service__description">
-                <h3 class="service__description__title">Easy</h3>
-                <p class="service__description--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
   </body>
 </html>
