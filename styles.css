@@ -12,7 +12,7 @@ a {
     color: inherit;
 }
 
-.color__porple {
+.color__purple {
     color: #6415ff;
 }
 
@@ -73,7 +73,7 @@ li {
 
 header {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -92,7 +92,7 @@ header {
 }
 
 .header__title {
-    font-size: 36px;
+    font-size: 48px;
     display: flex;
     flex-direction: column;
     font-weight: 700;
@@ -180,3 +180,6 @@ button {
 .Strip__img {
     width: 100%;
 }
+
+/* FEATURES */
+
