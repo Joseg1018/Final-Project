@@ -12,7 +12,11 @@ a {
     color: inherit;
 }
 
-.color__purple {
+img {
+    width: 1.5rem;
+}
+
+.color__purple, h5 {
     color: #6415ff;
 }
 
@@ -118,6 +122,10 @@ input {
     font-size: 100%;
 }
 
+input::placeholder {
+    color: rgba(0, 0, 0, 0.25);
+}
+
 button {
     border: none;
 }
@@ -183,3 +191,56 @@ button {
 
 /* FEATURES */
 
+.container {
+    /* width: 100%;
+    max-width: 1200px; */
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* .columnWithImg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+#ImgandDes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 16px;
+    padding: 32px 18px;
+}
+
+.columnWithImg {
+    display: flex;
+    width: calc(100%/3);
+}
+
+.ImgTitle {
+    display: flex;
+    width: calc(100%/3);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.025em;
+    /* font-size: 1.5rem; */
+    /* font-size: 1.5rem; */
+    margin: 16px 0 0;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(124, 139, 161);
+}
