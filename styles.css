@@ -251,12 +251,27 @@ h2 {
 .highlight__wrapper {
     display: flex;
     flex-wrap: wrap;
+    padding: 32px 8px;
 }
 
 .highlight {
     display: flex;
     width: calc(100% / 3);
+    /* height: 100%; */
     flex-direction: row;
     align-items: flex-start;
     text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.feature__img {
+}
+
+.highlight__img .feature__img {
+    border-radius: 9999px;
+    border-width: 1px;
+    /* flex-shrink: 0; */
+    padding: 1.25rem;
+    text-align: center;
 }
