@@ -238,10 +238,12 @@ button {
 .services__para {
     display: flex;
     text-align: center;
+    /* margin-top: 16px; */
     color: #7c8ba1;
     padding-top: 40px;
     font-size: 18px;
-    width: 60%;
+    /* width: 60%; */
+    max-width: 576px;
 }
 
 .services {
@@ -258,6 +260,7 @@ button {
 .service__description {
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 
 .imagecontainer {
@@ -275,7 +278,6 @@ button {
     font-size: 24px;
     color: #243E63;
     font-weight: 700;
-    text-align: left;
     padding-left: 20px;
 }
 
