@@ -376,7 +376,7 @@ h5 {
     flex-direction: column;
 }
 
-ul {
+.stepspara {
     display: flex;
     flex-direction: column;
 }
