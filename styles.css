@@ -396,4 +396,25 @@ li {
 .stepS {
     display: flex;
     flex-direction: row;
+    margin: 32px 0 0;
+}
+
+.descriptonRight {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.nubersLeft {
+    font-size: 36px;
+    color: #CBD5E0;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.titleNumber {
+    font-size: 20px;
+    color: #243E63;
+    font-weight: 600;
+    line-height: 1;
 }
