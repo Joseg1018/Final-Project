@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+    font-family: Inter, system-ui;
 }
 
 a {
@@ -12,11 +12,7 @@ a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
-}
-
-img {
-    /* width: 1.5rem; */
-}
+}   
 
 .color__purple, h5 {
     color: #6415ff;
@@ -354,4 +350,50 @@ h5 {
     margin: 32px 0 0;
     font-size: 14px;
     cursor: pointer;
+}
+
+.qualityButton:hover {
+    background-color: rgb(80, 17, 204);
+    color: rgb(237, 242, 247);
+    transition: all 300ms ease;
+}
+
+/* STEPS */
+
+.steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+#steps {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    
+}
+
+.steps2 {
+    width: 50%;
+}
+
+.stepsImg {
+    width: 100%;
+}
+
+.stepS {
+    display: flex;
+    flex-direction: row;
 }
