@@ -418,3 +418,28 @@ li {
     font-weight: 600;
     line-height: 1;
 }
+
+/* PRICING */
+
+.pricing {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pricing__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row__container {
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+}
+
+.h5pricing {
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+}
