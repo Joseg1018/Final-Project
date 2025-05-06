@@ -517,10 +517,10 @@ h5 {
     margin: 16px 0 0;
 } */
 
-#pricing .row {
-    /* display: flex;
+/* #pricing .row {
+    display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -529,4 +529,37 @@ h5 {
     min-width: 1200px;
     margin: 0 auto;
     margin-top: 36px;
+} */
+
+#pricing .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pricing .services__para2 {
+    max-width: 576px;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    padding-top: 24px;
+    z-index: 100;
+}
+
+.plan {
+    width: 100%;
+    min-width: 384px;
+    margin: 62px 34px 0 0;
+    padding-top: 8px;
+    border: solid rgb(226, 232, 240);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+    background: #fff;
 }
